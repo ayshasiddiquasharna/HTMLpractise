@@ -1,0 +1,50 @@
+table,tr,td,th {
+    border:1px solid rgb(64, 228, 14) ;
+    border-collapse:collapse;padding: 5px;
+}
+
+.container h2{
+    color: cadetblue;
+}
+.container p{
+    color: coral;
+}
+.header img{
+    height: 200px;
+    width: 200px;
+}
+.header ul{
+    overflow: hidden;
+    background-color: black;
+}
+.header li{
+    float: left;
+    padding: 16px 16px;
+    display: block;
+    
+}
+.header li a{
+    color: rgb(226, 128, 17);
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    float: left;
+}
+
+
+input{
+    padding: 12px;
+    border: 1px solid rgb(226, 43, 195);
+    border-radius: 4px;
+    width: 100px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
